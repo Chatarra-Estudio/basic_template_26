@@ -43,11 +43,5 @@ nodes which are pinned together using
 -------------------------------------------------------------------------------------------------------
 
 
-El germen del proyecto de producir unos controles 3d surgió de un intento, no satisfactorio, para una Game Jam de pocas horas donde. El objetivo de nuestro proyecto era hacer unos controles básicos para un submarino. Finalmente tenemos una plantilla con joytick virtual t movimiento en 3d:
-
-Plantilla proyecto editable original solo movimiento con joystick virtual, para que vaya bien en movil
-
-https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/tree/437d8bb987b4bb11bce31ce0715674a3b5abe02a
-Juego:
-https://josegarciamoreno.github.io/Chatarra-Estudio/landing2023/ferdi/3d.html
+El germen del proyecto ...
 
