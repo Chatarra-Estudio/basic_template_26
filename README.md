@@ -1,10 +1,11 @@
 # Basic template 2026
 Godot Engine 3.5 video game template: we start with the car.
 
+The template is based on the official Godot demo (link). We start with the vehicle physics.
+
 ---------------------------------------------------------------------------------------------------------
 
 # Truck Town
-
 This is a demo implementing different types of trucks of
 varying complexity using vehicle physics.
 
