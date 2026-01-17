@@ -30,8 +30,7 @@ func _on_Timer_timeout():
 		_animaGO()
 	pass # Replace with function body.
 
-func _animaGO():
-		get_node("game").show()
+func _tiempo1s():
 		# 1. Crear el nodo
 		var timer = Timer.new()
 		# 2. Configurarlo
@@ -42,8 +41,20 @@ func _animaGO():
 		# 4. Añadirlo a la escena y encenderlo
 		add_child(timer)
 		timer.start()
+
+func _animaGO():
+#		timeRun += 1
+		get_node("game").show()
+		_tiempo1s()
+
+func _animaWIN():
+		get_node("win").show()
+		_tiempo1s()
+
 #		yield(get_tree().create_timer(2.0), "timeout")#tempo,2 seg
 
 func _al_terminar_tiempo():
 #	print("Pasaron los 2 segundos: reinicio")
 	print("muerto, reinicio, game over, ", Countdown, timeRun, get_tree().reload_current_scene())
+
+

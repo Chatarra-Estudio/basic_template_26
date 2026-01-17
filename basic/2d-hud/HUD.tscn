@@ -17,7 +17,8 @@ texture = ExtResource( 2 )
 autostart = true
 
 [node name="panel" type="Node2D" parent="."]
-editor/display_folded = true
+position = Vector2( 15, 15 )
+scale = Vector2( 2, 2 )
 
 [node name="countDown" type="Label" parent="panel"]
 margin_right = 30.0
