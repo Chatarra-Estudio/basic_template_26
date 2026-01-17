@@ -160,7 +160,6 @@ depth = 0.585077
 material = ExtResource( 3 )
 
 [node name="CameraBase" type="Spatial" parent="Body"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.97449, 0 )
 
 [node name="Camera" type="Camera" parent="Body/CameraBase"]
