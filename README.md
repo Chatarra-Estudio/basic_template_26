@@ -1,6 +1,10 @@
 # Basic template 2026
 Godot Engine 3.5 video game template: we start with the car.
 
+https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0117-v0/coche0.html
+
+Imagen calabera game over
+
 https://raw.githubusercontent.com/Chatarra-Estudio/basic_template_26/5eb9ed90871d4d30158b478ac71c7953faeeabb8/basic/2d-imagen/game.png
 
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
