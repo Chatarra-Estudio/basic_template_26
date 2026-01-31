@@ -4,7 +4,7 @@ extends Node2D
 # var a = 2
 # var b = "text"
 var timeRun = 0 # contador de segundos
-var Countdown = 5 # segundos, cuenta atrás
+var Countdown = 30 # segundos, cuenta atrás
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
