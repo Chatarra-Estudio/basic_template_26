@@ -7,6 +7,8 @@ Imagen calabera game over
 
 https://raw.githubusercontent.com/Chatarra-Estudio/basic_template_26/5eb9ed90871d4d30158b478ac71c7953faeeabb8/basic/2d-imagen/game.png
 
+https://chatarra-estudio.github.io/ 
+
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
 
 
@@ -62,4 +64,6 @@ https://www.blender.org/
 ---------------------------------------------------------------------------------------------------------
 
 El germen del proyecto ...
+
+https://chatarra-estudio.github.io/ 
 
