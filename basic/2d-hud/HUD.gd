@@ -4,7 +4,7 @@ extends Node2D
 # var a = 2
 # var b = "text"
 var timeRun = 0 # contador de segundos
-var Countdown = 30 # segundos, cuenta atrás
+var Countdown = 5 # segundos, cuenta atrás
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -34,7 +34,7 @@ func _tiempo1s():
 		# 1. Crear el nodo
 		var timer = Timer.new()
 		# 2. Configurarlo
-		timer.wait_time = 2.0
+		timer.wait_time = 1.0
 		timer.one_shot = true # Para que solo ocurra una vez
 		# 3. Conectar la señal "timeout" a una función de este script
 		timer.connect("timeout", self, "_al_terminar_tiempo")
