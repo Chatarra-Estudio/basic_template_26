@@ -18,7 +18,8 @@ func _on_Area_body_entered(_body):
 #	cuidado con los hijos busca al coche
 #	print(get_parent().name)
 #	print(get_parent().get_child(0).name)
-#	print(get_parent().get_child(0).get_node("Body/CameraBase/Camera/hub/HUD")._animaWIN())
+	print(get_parent().get_child(0).get_node("Body/CameraBase/Camera/hub/HUD")._animaWIN())
+
 #	cuidado con los hijos busca a la pelota
-	print(get_parent().get_child(4)._animaWIN())
+#	print(get_parent().get_child(4)._animaWIN())
 	pass # Replace with function body.
