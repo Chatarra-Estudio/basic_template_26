@@ -1,0 +1,105 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://3d-car0/material_verde.tres" type="Material" id=1]
+[ext_resource path="res://2d-imagen/fondo.jpg" type="Texture" id=2]
+[ext_resource path="res://3d-car0/Win.tscn" type="PackedScene" id=3]
+[ext_resource path="res://2d-hud/HUD.tscn" type="PackedScene" id=4]
+[ext_resource path="res://3d-throw/ball.tscn" type="PackedScene" id=5]
+[ext_resource path="res://2d-imagen/suelo.jpg" type="Texture" id=6]
+
+[sub_resource type="BoxShape" id=1]
+
+[sub_resource type="PanoramaSky" id=2]
+panorama = ExtResource( 2 )
+
+[sub_resource type="Environment" id=3]
+background_mode = 2
+background_sky = SubResource( 2 )
+background_sky_orientation = Basis( 0.154251, 0, -0.988032, 0, 1, 0, 0.988032, 0, 0.154251 )
+
+[node name="MainThrow" type="Spatial"]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.997774, 0.0666878, 0, -0.0666878, 0.997774, 0, 5.94904, 7.72425 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Camera"]
+
+[node name="TextureButton" type="TextureButton" parent="Camera/CanvasLayer"]
+margin_right = 1022.0
+margin_bottom = 606.0
+
+[node name="StaticBody2" type="StaticBody" parent="."]
+transform = Transform( 30, -8.74228e-08, -2.62268e-06, -2.62268e-06, -1, 0, -2.62268e-06, 7.64274e-15, -30, -0.289551, -2.20923, 0.324951 )
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody2"]
+editor/display_folded = true
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="StaticBody2/CollisionShape"]
+material = ExtResource( 1 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 3 )
+
+[node name="Win" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.13044, -17.1618 )
+
+[node name="HUD" parent="." instance=ExtResource( 4 )]
+
+[node name="RigidBody" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.29752, 0 )
+
+[node name="Spatial" type="Spatial" parent="."]
+transform = Transform( -30, 8.74228e-08, 0, 2.62268e-06, 1, 0, 0, 0, 30, 0, 1.90309, -13.4161 )
+
+[node name="StaticBody3" type="StaticBody" parent="Spatial"]
+editor/display_folded = true
+transform = Transform( 0.0166667, 6.78165e-08, 1.45705e-09, 5.08624e-07, -2, -3.82137e-15, -1.45705e-09, -6.43822e-15, 0.0166667, 0.0615927, 7.07005, -0.0719749 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Spatial/StaticBody3"]
+editor/display_folded = true
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="Spatial/StaticBody3/CollisionShape"]
+material = ExtResource( 1 )
+
+[node name="StaticBody4" type="StaticBody" parent="Spatial"]
+editor/display_folded = true
+transform = Transform( 0.0166667, 6.78165e-08, 1.45705e-09, 5.08624e-07, -2, -3.82137e-15, -1.45705e-09, -6.43822e-15, 0.0166667, -0.0473091, 7.07005, -0.0719749 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Spatial/StaticBody4"]
+editor/display_folded = true
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="Spatial/StaticBody4/CollisionShape"]
+material = ExtResource( 1 )
+
+[node name="StaticBody5" type="StaticBody" parent="Spatial"]
+editor/display_folded = true
+transform = Transform( 0.0666667, 1.69541e-08, 1.45705e-09, 2.03449e-06, -0.5, -3.82137e-15, -5.82819e-09, -1.60956e-15, 0.0166667, 0.00628609, 4.39029, -0.0719749 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Spatial/StaticBody5"]
+editor/display_folded = true
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="Spatial/StaticBody5/CollisionShape"]
+material = ExtResource( 1 )
+
+[node name="StaticBody6" type="StaticBody" parent="Spatial"]
+editor/display_folded = true
+transform = Transform( 0.0666667, 1.69541e-08, 1.45705e-09, 2.03449e-06, -0.5, -3.82137e-15, -5.82819e-09, -1.60956e-15, 0.0166667, 0.00628611, 9.77558, -0.0719749 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Spatial/StaticBody6"]
+editor/display_folded = true
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="Spatial/StaticBody6/CollisionShape"]
+material = ExtResource( 1 )
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform( -1.74846e-07, 0, 6, 0, 1, 0, -4, 0, -2.62268e-07, 0, -1.17524, 0 )
+axis = 1
+texture = ExtResource( 6 )
+
+[connection signal="button_down" from="Camera/CanvasLayer/TextureButton" to="RigidBody" method="_on_TextureButton_button_down"]
+[connection signal="button_up" from="Camera/CanvasLayer/TextureButton" to="RigidBody" method="_on_TextureButton_button_up"]
