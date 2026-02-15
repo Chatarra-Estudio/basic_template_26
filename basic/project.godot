@@ -8,15 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Control",
+"class": "VirtualJoystick",
+"language": "GDScript",
+"path": "res://2d-joystick/virtual_joystick.gd"
+} ]
 _global_script_class_icons={
-
+"VirtualJoystick": ""
 }
 
 [application]
 
 config/name="Plantilla 2026"
-run/main_scene="res://3d-car0/main.tscn"
+run/main_scene="res://3d-cara-dispa/mundoDispa2.tscn"
 config/icon="res://icon.png"
 
 [input]
@@ -28,6 +33,10 @@ turn_left={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":4,"pressure":0.0,"pressed":false,"script":null)
  ]
 }
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
