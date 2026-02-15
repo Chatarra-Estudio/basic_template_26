@@ -1,7 +1,6 @@
 extends KinematicBody
 
 
-
 export var gravity = Vector3.DOWN * 10
 export var speed = 45
 export var rot_speed = 0.9
@@ -9,7 +8,10 @@ onready var escenaontrol = get_node("Control/Virtual joystick")
 var velocity = Vector3.ZERO
 
 #var pantallaHUDcarga = preload("res://2d-HUD/HUD.tscn")
+var pantallaHUDcarga = preload("res://2d-hud/HUD.tscn")
 var pantallaHUD
+#var flagGO = false
+
 	
 func _physics_process(delta):
 #	print(escenaontrol)
@@ -38,10 +40,11 @@ func _physics_process(delta):
 		_go_en_carac()
 #		print(get_tree().reload_current_scene())
 func _go_en_carac():
-	print(get_tree().reload_current_scene())
-#	pantallaHUD = pantallaHUDcarga.instance()
-#	add_child(pantallaHUD)
-#	pantallaHUD._game_over()
+#	print(get_tree().reload_current_scene())
+	pantallaHUD = pantallaHUDcarga.instance()
+	add_child(pantallaHUD)
+	pantallaHUD._animaGO()
+	pantallaHUD.get_node("inicio-I").hide()
 	
 func _win_en_carac():
 	print(get_tree().reload_current_scene())
