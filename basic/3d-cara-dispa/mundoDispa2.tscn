@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://3d-cara-dispa/CaracterDis.tscn" type="PackedScene" id=1]
 [ext_resource path="res://3d-cara-dispa/enemigos/material-violeta.tres" type="Material" id=2]
@@ -9,6 +9,13 @@
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 0.976878, 1, 1 )
 
+[sub_resource type="PanoramaSky" id=2]
+panorama = ExtResource( 5 )
+
+[sub_resource type="Environment" id=3]
+background_mode = 2
+background_sky = SubResource( 2 )
+
 [node name="mundo" type="Spatial"]
 
 [node name="Caracter" parent="." instance=ExtResource( 1 )]
@@ -17,7 +24,6 @@ extents = Vector3( 0.976878, 1, 1 )
 transform = Transform( 20, 0, 0, 0, 1, 0, 0, 0, 20, 0, -5, -7.48867 )
 
 [node name="CSGBox" type="CSGBox" parent="suelo"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 material = ExtResource( 2 )
 
 [node name="StaticBody" type="StaticBody" parent="suelo/CSGBox"]
@@ -49,11 +55,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.35663, 6.1416, -10.2188 )
 transform = Transform( -6.04771, 0, 0.796399, 0, 10, 0, -7.96399, 0, -0.604771, 69.052, 0, -28.3129 )
 texture = ExtResource( 5 )
 
-[node name="Sprite3D2" type="Sprite3D" parent="."]
-transform = Transform( 4.88996, 0, 0.872286, 0, 10, 0, -8.72286, 0, 0.488996, -61.0289, 0, -30.5946 )
-texture = ExtResource( 5 )
-
-[node name="Sprite3D3" type="Sprite3D" parent="."]
-transform = Transform( 9.98793, 0, -0.0491112, 0, 10, 0, 0.491112, 0, 0.998793, 3.33784, 0, -88.595 )
-texture = ExtResource( 5 )
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 3 )
 
