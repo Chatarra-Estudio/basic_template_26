@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://3d-cara-dispa/Caracter.gd" type="Script" id=1]
-[ext_resource path="res://3d-cara-dispa/enemigos/material-azul.tres" type="Material" id=2]
-[ext_resource path="res://2d-joystick/virtual_joystick.tscn" type="PackedScene" id=3]
-[ext_resource path="res://3d-cara-dispa/Control-dispa.tscn" type="PackedScene" id=4]
-[ext_resource path="res://3d-cara-dispa/enemigos/material-amarillo.tres" type="Material" id=5]
+[ext_resource path="res://3d-car0/material_verde.tres" type="Material" id=2]
+[ext_resource path="res://3d-car0/material_rojo.tres" type="Material" id=3]
+[ext_resource path="res://2d-joystick/virtual_joystick.tscn" type="PackedScene" id=4]
+[ext_resource path="res://3d-cara-dispa/Control-dispa.tscn" type="PackedScene" id=5]
+[ext_resource path="res://3d-cara-dispa/enemigos/material-amarillo.tres" type="Material" id=6]
 
 [sub_resource type="BoxShape" id=1]
 
@@ -22,7 +23,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.118858, -2.359 )
 width = 0.751
 height = 0.79
 depth = 2.926
-material = ExtResource( 2 )
+material = ExtResource( 3 )
 
 [node name="Control" type="Control" parent="."]
 editor/display_folded = true
@@ -30,14 +31,14 @@ anchor_right = 0.993
 anchor_bottom = 1.0
 margin_right = 0.167969
 
-[node name="Virtual joystick" parent="Control" instance=ExtResource( 3 )]
+[node name="Virtual joystick" parent="Control" instance=ExtResource( 4 )]
 margin_left = 767.0
 margin_top = -267.0
 margin_right = 1023.0
 margin_bottom = -46.0
 clampzone_size = 76.0
 
-[node name="Control" parent="Control" instance=ExtResource( 4 )]
+[node name="Control" parent="Control" instance=ExtResource( 5 )]
 margin_left = 28.9832
 margin_top = 342.644
 margin_right = 28.9832
@@ -47,12 +48,11 @@ margin_bottom = 342.644
 transform = Transform( 1, 0, 0, 0, 0.901561, 0.432652, 0, -0.432652, 0.901561, -0.156914, 2.77704, 3.54861 )
 
 [node name="fusil" type="Spatial" parent="."]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.05094 )
 
 [node name="CSGBox" type="CSGBox" parent="fusil"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.88358 )
 width = 1.0
 height = 1.0
-material = ExtResource( 5 )
+material = ExtResource( 6 )
 
