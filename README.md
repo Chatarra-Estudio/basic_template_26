@@ -1,5 +1,7 @@
 # Basic template 2026
-Godot Engine 3.5 video game template: we start with the car.
+Godot Engine 3.5 video game template: 
+
+we start with the car.
 
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0117-v0/coche0.html
 
@@ -11,6 +13,14 @@ https://chatarra-estudio.github.io/
 
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
 
+
+
+Algunos Modelos:
+
+
+https://github.com/Chatarra-Estudio/basic_template_26/tree/2f561726addc7b47ed018767a877eaca1e16e3a9
+
+---------------------------------------------------------------------------------------------------------
 
 The template is based on the official Godot demo (link). We start with the vehicle physics.
 ---------------------------------------------------------------------------------------------------------
