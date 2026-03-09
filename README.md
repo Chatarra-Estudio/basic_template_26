@@ -1,6 +1,27 @@
 # Basic template 2026
 Godot Engine 3.5 video game template: 
 
+
+https://onehourgamejam.com/
+
+Juegos Chatarra Estudio (Video Games):
+
+Game´s name: https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0228-ohgj566/matrix.html
+
+Game Jam: One Hour Game Jam  567th
+
+Theme: Wizards
+
+Date: March 7th 2026
+
+Play / Jugar:  Uno 
+
+Proyect production: unas 2 horas.
+
+Template: Plantilla 2026 básica General 1.3
+
+AI production: https://gemini.google.com/share/3cdd6baaea31 
+
 we start with the car.
 
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0117-v0/coche0.html
