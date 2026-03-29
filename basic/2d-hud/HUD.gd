@@ -4,7 +4,7 @@ extends Node2D
 # var a = 2
 # var b = "text"
 var timeRun = 0 # contador de segundos
-var Countdown = 60 # segundos, cuenta atrás
+var Countdown = 20 # segundos, cuenta atrás
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -59,5 +59,35 @@ func _al_terminar_tiempo():
 	get_node("game").hide()
 	get_node("win").hide()
 	print("muerto, reinicio, game over, ", Countdown, timeRun, get_tree().reload_current_scene())
+	
+	
+func _potenciadorT(segun):
+	Countdown += segun
+	animar_label(get_node("panel/countDown"))
+	
+func animar_label(label):
+	var tween = Tween.new()
+	add_child(tween)
+	label.rect_scale = Vector2(1, 1)
+	
+	tween.interpolate_property(
+		label, "rect_scale",
+		Vector2(1, 1),
+		Vector2(1.3, 1.3),
+		0.25,
+		Tween.TRANS_BACK,
+		Tween.EASE_OUT
+	)
+	
+	tween.interpolate_property(
+		label, "rect_scale",
+		Vector2(1.3, 1.3),
+		Vector2(1, 1),
+		0.25,
+		Tween.TRANS_BACK,
+		Tween.EASE_IN,
+		0.25
+	)
+	tween.start()
 
 
