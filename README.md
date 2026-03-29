@@ -8,6 +8,9 @@ Juegos Chatarra Estudio (Video Games):
 
 Game´s name: https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0228-ohgj566/matrix.html
 
+
+
+
 Game Jam: One Hour Game Jam  567th
 
 Theme: Wizards
@@ -35,6 +38,13 @@ https://chatarra-estudio.github.io/
 https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
 
 
+---------------------------------------------------------------------------------------------------------
+
+Mis recomendaciones: Modelos 3D
+
+https://trellis3d.co/online
+
+---------------------------------------------------------------------------------------------------------
 
 Algunos Modelos:
 
