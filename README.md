@@ -25,7 +25,7 @@ Proyect production: unas 2 horas.
 
 Template: Plantilla 2026 básica General 1.3
 
-AI production: https://gemini.google.com/share/3cdd6baaea31 
+AI production:
 
 we start with the car.
 
