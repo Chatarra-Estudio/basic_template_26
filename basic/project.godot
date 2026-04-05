@@ -21,8 +21,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Plantilla 2026"
-run/main_scene="res://3d-cara-dispa/mundoDispa2.tscn"
+run/main_scene="res://2d-point/main2D-01.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+global_nivel="*res://2d-hud/global_nivel.gd"
 
 [display]
 
