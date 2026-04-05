@@ -37,15 +37,11 @@ func determinar_inventario():
 		animar_SCALA(get_node("runa2"))
 		get_node("runa3").show()
 		animar_SCALA(get_node("runa3"))
+		global_nivel.resetear()
+#		get_tree().change_scene("res://2d-point/main2D-01.tscn" )
+		get_parent().get_node("HUD")._animaWIN()
 		
-
-func limpiar_pantalla1():
-	if global_nivel.nivel ==1:
-		print("nivel 1 : todo", get_parent())
-		print(get_parent().get_node("runa").queue_free())
-	elif global_nivel.inventario ==2:
-		print("nivel 2 : borrar")
-
+		
 
 func animar_SCALA(label):
 	var tween = Tween.new()

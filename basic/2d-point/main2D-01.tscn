@@ -1,11 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://2d-imagen/fondo.jpg" type="Texture" id=1]
 [ext_resource path="res://2d-point/Caracter.tscn" type="PackedScene" id=2]
 [ext_resource path="res://2d-hud/HUD.tscn" type="PackedScene" id=3]
-[ext_resource path="res://2d-point/puertaPant.tscn" type="PackedScene" id=4]
-[ext_resource path="res://2d-point/runa.tscn" type="PackedScene" id=5]
-[ext_resource path="res://2d-point/inventario.tscn" type="PackedScene" id=6]
+[ext_resource path="res://2d-point/runa.tscn" type="PackedScene" id=4]
+[ext_resource path="res://2d-point/inventario.tscn" type="PackedScene" id=5]
 
 [node name="main2D-01" type="Node2D"]
 
@@ -20,11 +19,14 @@ centered = false
 
 [node name="HUD" parent="." instance=ExtResource( 3 )]
 
-[node name="puertaPant" parent="." instance=ExtResource( 4 )]
-position = Vector2( 693.034, 248.799 )
-
-[node name="runa" parent="." instance=ExtResource( 5 )]
+[node name="runa" parent="." instance=ExtResource( 4 )]
 position = Vector2( 333.945, 233.27 )
 
-[node name="inventario" parent="." instance=ExtResource( 6 )]
+[node name="runa2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 532.856, 452.758 )
+
+[node name="runa3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 711.19, 182.685 )
+
+[node name="inventario" parent="." instance=ExtResource( 5 )]
 

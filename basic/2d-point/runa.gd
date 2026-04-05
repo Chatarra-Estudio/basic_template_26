@@ -28,9 +28,8 @@ func _on_Area2D_body_entered(_body):
 		global_nivel.inventario = 2
 		actualizarIvent()
 	elif global_nivel.inventario ==2:
-		global_nivel.inventario = 3
+		global_nivel.inventario = 3		
 		actualizarIvent()
-		
 		print("win por runa ", global_nivel.inventario , " invent ")
 		
 	pass # Replace with function body.
