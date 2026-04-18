@@ -48,6 +48,14 @@ https://trellis3d.co/online
 
 ---------------------------------------------------------------------------------------------------------
 
+2D Variante:
+
+
+[https://github.com/Chatarra-Estudio/basic_template_26/tree/2f561726addc7b47ed018767a877eaca1e16e3a9](https://github.com/Chatarra-Estudio/basic_template_26/tree/9f0b88142e0a43321873e6f513a90ad065d1c626)
+
+
+---------------------------------------------------------------------------------------------------------
+
 Algunos Modelos:
 
 
