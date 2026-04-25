@@ -3,16 +3,13 @@ Godot Engine 3.5 video game template:
 
 https://onehourgamejam.com/
 
-
-https://hy3d.dev/?utm_source=chatgpt.com
-
-
 Juegos Chatarra Estudio (Video Games):
 
+Versión Jam con 2d: https://github.com/Chatarra-Estudio/basic_template_26/tree/820890bb9a96262615ba7cfade33324731d8ef9d
+
+---------------------------------------------------------------------------------------------------------
+
 Game´s name: https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0228-ohgj566/matrix.html
-
-
-
 Game Jam: One Hour Game Jam  567th
 
 Theme: Wizards
@@ -45,6 +42,8 @@ https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
 Mis recomendaciones: Modelos 3D
 
 https://trellis3d.co/online
+
+Solo maya?:  https://hy3d.dev/?utm_source=chatgpt.com
 
 ---------------------------------------------------------------------------------------------------------
 
