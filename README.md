@@ -60,6 +60,8 @@ Algunos Modelos:
 
 https://github.com/Chatarra-Estudio/basic_template_26/tree/2f561726addc7b47ed018767a877eaca1e16e3a9
 
+https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/main/modelos/modelos.md
+
 ---------------------------------------------------------------------------------------------------------
 
 The template is based on the official Godot demo (link). We start with the vehicle physics.
