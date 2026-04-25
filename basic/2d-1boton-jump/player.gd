@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 var gravity = 1200
-var jump_force = -600
+var jump_force = -700
 var velocity = Vector2.ZERO
 
 func _physics_process(delta):

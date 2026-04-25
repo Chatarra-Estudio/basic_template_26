@@ -9,6 +9,7 @@
 extents = Vector2( 32.357, 31.0937 )
 
 [node name="mundo" type="Node2D"]
+editor/display_folded = true
 script = ExtResource( 1 )
 
 [node name="fondo" parent="." instance=ExtResource( 2 )]
@@ -17,7 +18,7 @@ script = ExtResource( 1 )
 position = Vector2( 1080, 0 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
-editor/display_folded = true
+visible = false
 position = Vector2( 300, 600 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
@@ -27,7 +28,7 @@ shape = SubResource( 1 )
 texture = ExtResource( 3 )
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 4 )]
-position = Vector2( 309.088, 43.1694 )
+position = Vector2( 310.388, 265.038 )
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 1.5
