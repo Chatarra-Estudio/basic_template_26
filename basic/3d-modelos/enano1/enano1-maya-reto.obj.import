@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/enano1-maya-reto.obj-f3b59dc75339d0c70510cf40b07f744a.mesh"
+
+[deps]
+
+files=[ "res://.import/enano1-maya-reto.obj-f3b59dc75339d0c70510cf40b07f744a.mesh" ]
+
+source_file="res://3d-modelos/enano1/enano1-maya-reto.obj"
+dest_files=[ "res://.import/enano1-maya-reto.obj-f3b59dc75339d0c70510cf40b07f744a.mesh", "res://.import/enano1-maya-reto.obj-f3b59dc75339d0c70510cf40b07f744a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

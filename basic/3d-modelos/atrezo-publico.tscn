@@ -1,0 +1,37 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://3d-modelos/enano1/enano1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://3d-modelos/enano2/enano2.tscn" type="PackedScene" id=2]
+[ext_resource path="res://3d-modelos/enano3/enano3.tscn" type="PackedScene" id=3]
+[ext_resource path="res://3d-modelos/neo-cube/neo-cube.tscn" type="PackedScene" id=4]
+[ext_resource path="res://3d-modelos/pistolero/pistonlero.tscn" type="PackedScene" id=5]
+[ext_resource path="res://3d-modelos/romano/romanoMAt.tscn" type="PackedScene" id=6]
+[ext_resource path="res://3d-modelos/romano/romanoAzul.tscn" type="PackedScene" id=7]
+[ext_resource path="res://3d-modelos/bombero-1/bombero.tscn" type="PackedScene" id=8]
+
+[node name="atrezo-publico" type="Spatial"]
+
+[node name="Spatial" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.89062, 1.23421, 0.128906 )
+
+[node name="enano2" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.27691, 1.04373, 0 )
+
+[node name="enano3" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.36021, 1.38037, 0 )
+
+[node name="Scene Root" parent="." instance=ExtResource( 4 )]
+transform = Transform( -0.0280688, 0, -0.999606, 0, 1, 0, 0.999606, 0, -0.0280688, -20.5985, 1.02181, 0 )
+
+[node name="Spatial2" parent="." instance=ExtResource( 5 )]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -14.7712, 1.4447, 0 )
+
+[node name="Scene Root2" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0084, 1.96161, 0 )
+
+[node name="Scene Root3" parent="." instance=ExtResource( 7 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3421, 1.9834, 0 )
+
+[node name="Scene Root4" parent="." instance=ExtResource( 8 )]
+transform = Transform( 0.121585, 0, 0.992581, 0, 1, 0, -0.992581, 0, 0.121585, -18.0256, 0.433745, 0 )
+

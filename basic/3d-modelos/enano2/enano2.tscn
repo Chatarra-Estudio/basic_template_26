@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://3d-cara-dispa/enemigos/material-azul.tres" type="Material" id=1]
+[ext_resource path="res://3d-modelos/enano2/enano2-maya-reto.obj" type="ArrayMesh" id=2]
+
+[node name="enano2" type="Spatial"]
+
+[node name="CSGBox" type="CSGBox" parent="."]
+visible = false
+material = ExtResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 2.8, 0, 0, 0, 2.8, 0, 0, 0, 3, 0, 0, 0 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+

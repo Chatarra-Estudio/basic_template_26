@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pistolero-maya-ret2.obj-0c34efecd06ee9b3f44f110ef8fd0ec1.mesh"
+
+[deps]
+
+files=[ "res://.import/pistolero-maya-ret2.obj-0c34efecd06ee9b3f44f110ef8fd0ec1.mesh" ]
+
+source_file="res://3d-modelos/pistolero/pistolero-maya-ret2.obj"
+dest_files=[ "res://.import/pistolero-maya-ret2.obj-0c34efecd06ee9b3f44f110ef8fd0ec1.mesh", "res://.import/pistolero-maya-ret2.obj-0c34efecd06ee9b3f44f110ef8fd0ec1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
