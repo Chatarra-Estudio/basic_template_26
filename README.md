@@ -62,6 +62,10 @@ https://github.com/Chatarra-Estudio/basic_template_26/tree/2f561726addc7b47ed018
 
 https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/main/modelos/modelos.md
 
+Personajes planos : enanos bombero neo ...
+
+https://github.com/Chatarra-Estudio/basic_template_26/tree/a2b5c4c08261ddbe758873b27795f11bf7e79301
+
 ---------------------------------------------------------------------------------------------------------
 
 The template is based on the official Godot demo (link). We start with the vehicle physics.
