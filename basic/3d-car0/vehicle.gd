@@ -60,7 +60,7 @@ func _physics_process(_delta):
 
 
 #	Game Over por caida con HUD:
-	if global_transform.origin.y <  -2 :
+	if global_transform.origin.y <  -20 :
 #		print(get_node("CameraBase/Camera/hub/HUD").timeRun)
 		get_node("CameraBase/Camera/hub/HUD")._animaGO()
 #		print(get_tree().reload_current_scene(), " muerto por caida, gamo over")

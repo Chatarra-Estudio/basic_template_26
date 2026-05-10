@@ -32,8 +32,8 @@ material = ExtResource( 2 )
 environment = SubResource( 3 )
 
 [node name="Win" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.3909, 0, 15.2746 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3608 )
 
 [node name="potenciadorT" parent="." instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 11.0452 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.106093, 0.308906, 7.27363 )
 
