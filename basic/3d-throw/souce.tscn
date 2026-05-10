@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://3d-car0/material_verde.tres" type="Material" id=1]
+[ext_resource path="res://3d-throw/light-souce.tres" type="Material" id=1]
 
 [sub_resource type="SphereMesh" id=1]
 material = ExtResource( 1 )
