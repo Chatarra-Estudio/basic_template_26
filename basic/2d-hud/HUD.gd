@@ -67,13 +67,14 @@ func _potenciadorT(segun):
 	
 func animar_label(label):
 	var tween = Tween.new()
+	var scaleTot = 3.1
 	add_child(tween)
 	label.rect_scale = Vector2(1, 1)
 	
 	tween.interpolate_property(
 		label, "rect_scale",
 		Vector2(1, 1),
-		Vector2(1.3, 1.3),
+		Vector2(scaleTot, scaleTot),
 		0.25,
 		Tween.TRANS_BACK,
 		Tween.EASE_OUT
@@ -81,7 +82,7 @@ func animar_label(label):
 	
 	tween.interpolate_property(
 		label, "rect_scale",
-		Vector2(1.3, 1.3),
+		Vector2(scaleTot, scaleTot),
 		Vector2(1, 1),
 		0.25,
 		Tween.TRANS_BACK,
