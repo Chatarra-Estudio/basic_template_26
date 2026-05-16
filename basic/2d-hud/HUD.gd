@@ -4,7 +4,9 @@ extends Node2D
 # var a = 2
 # var b = "text"
 var timeRun = 0 # contador de segundos
-var Countdown = 20 # segundos, cuenta atrás
+var Countdown = 5 # segundos, cuenta atrás
+
+var flag_nivel = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -23,11 +25,18 @@ func _on_Timer_timeout():
 		get_node("inicio-I").hide()
 		get_node("panel/countDown").show()
 		get_node("panel/countDown").set_text("amigo")
+		animar_label(get_node("panel/countDown"))
 	get_node("panel/countDown").set_text("T: " + str(Countdown - timeRun))
+
 	
 	if Countdown == timeRun:
-		print("Anima Game Over por tiempo:  ", timeRun, " segundos. Cuenta atrás:  ",Countdown)
-		_animaGO()
+		# Niveles
+		print("Anima Win por tiempo CUenta atrás:  ", timeRun, " segundos. Cuenta atrás:  ",Countdown)
+		_animaWINnivel()
+		
+		# sin nivel reinicio el mismo nivel con Game over
+#		print("Anima Game Over por tiempo:  ", timeRun, " segundos. Cuenta atrás:  ",Countdown)
+#		_animaGO()
 	pass # Replace with function body.
 
 func _tiempo1s():
@@ -46,6 +55,12 @@ func _animaGO():
 #		timeRun += 1
 		get_node("game").show()
 		_tiempo1s()
+		
+func _animaWINnivel():
+#		timeRun += 1
+		get_node("win").show()
+		flag_nivel = true
+		_tiempo1s()
 
 func _animaWIN():
 		get_node("win").show()
@@ -55,10 +70,18 @@ func _animaWIN():
 
 func _al_terminar_tiempo():
 #	print("Pasaron los 2 segundos: reinicio")
-	get_node("panel/countDown").hide()
-	get_node("game").hide()
-	get_node("win").hide()
-	print("muerto, reinicio, game over, ", Countdown, timeRun, get_tree().reload_current_scene())
+	if flag_nivel:
+		print("meter_pantalla")
+		get_node("inicio-I").show()
+		get_node("panel/countDown").set_text("Cargando...     T: " + str(Countdown - timeRun))
+		print("Meto panatalla ",get_tree().change_scene("res://3d-cara-dispa/mundoDispa2.tscn"))
+#		get_tree().change_scene("res://3d-cara-dispa/mundoDispa2.tscn")
+	
+	else:
+		get_node("panel/countDown").hide()
+		get_node("game").hide()
+		get_node("win").hide()
+		print("Reinicio ", Countdown,". Reinicio ", timeRun, ". Reinicio ",get_tree().reload_current_scene())
 	
 	
 func _potenciadorT(segun):
