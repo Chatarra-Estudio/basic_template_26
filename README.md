@@ -9,35 +9,6 @@ Versión Jam con 2d: https://github.com/Chatarra-Estudio/basic_template_26/tree/
 
 ---------------------------------------------------------------------------------------------------------
 
-Game´s name: https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0228-ohgj566/matrix.html
-Game Jam: One Hour Game Jam  567th
-
-Theme: Wizards
-
-Date: March 7th 2026
-
-Play / Jugar:  Uno 
-
-Proyect production: unas 2 horas.
-
-Template: Plantilla 2026 básica General 1.3
-
-AI production:
-
-we start with the car.
-
-https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0117-v0/coche0.html
-
-Imagen calabera game over
-
-https://raw.githubusercontent.com/Chatarra-Estudio/basic_template_26/5eb9ed90871d4d30158b478ac71c7953faeeabb8/basic/2d-imagen/game.png
-
-https://chatarra-estudio.github.io/ 
-
-https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
-
-
----------------------------------------------------------------------------------------------------------
 
 Mis recomendaciones: Modelos 3D
 
@@ -69,6 +40,41 @@ https://github.com/Chatarra-Estudio/Virtual-Joytick-3d/blob/main/modelos/modelos
 Personajes planos : enanos bombero neo ...
 
 https://github.com/Chatarra-Estudio/basic_template_26/tree/a2b5c4c08261ddbe758873b27795f11bf7e79301
+
+
+---------------------------------------------------------------------------------------------------------
+
+Por archivar:
+
+---------------------------------------------------------------------------------------------------------
+
+Game´s name: https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0228-ohgj566/matrix.html
+Game Jam: One Hour Game Jam  567th
+
+Theme: Wizards
+
+Date: March 7th 2026
+
+Play / Jugar:  Uno 
+
+Proyect production: unas 2 horas.
+
+Template: Plantilla 2026 básica General 1.3
+
+AI production:
+
+we start with the car.
+
+https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0117-v0/coche0.html
+
+Imagen calabera game over
+
+https://raw.githubusercontent.com/Chatarra-Estudio/basic_template_26/5eb9ed90871d4d30158b478ac71c7953faeeabb8/basic/2d-imagen/game.png
+
+https://chatarra-estudio.github.io/ 
+
+https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/enano/gibli.html
+
 
 ---------------------------------------------------------------------------------------------------------
 
