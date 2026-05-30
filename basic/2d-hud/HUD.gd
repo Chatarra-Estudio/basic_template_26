@@ -59,7 +59,9 @@ func _animaGO():
 func _animaWINnivel():
 #		timeRun += 1
 		get_node("win").show()
-		flag_nivel = true
+		#	otra pantalla
+		#	poner TRUE sin quieres que cambie a otra pantalla
+#		flag_nivel = true
 		_tiempo1s()
 
 func _animaWIN():
