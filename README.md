@@ -20,6 +20,8 @@ Para muchas fotos: https://app.eyescloud3d.com/
 
 Modelos pesados y creditos: https://www.hitem3d.ai/home
 
+Probando: https://huggingface.co/spaces/ashawkey/LGM
+
 ---------------------------------------------------------------------------------------------------------
 
 2D Variante:
