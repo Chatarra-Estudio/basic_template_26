@@ -12,6 +12,8 @@ Versión Jam con 2d: https://github.com/Chatarra-Estudio/basic_template_26/tree/
 
 Mis recomendaciones: Modelos 3D
 
+https://www.ai3dgen.com/es/image-to-3d-model-free#free-trial
+
 https://trellis3d.co/online
 
 Solo maya?:  https://hy3d.dev/?utm_source=chatgpt.com
