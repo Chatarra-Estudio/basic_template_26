@@ -12,6 +12,8 @@ Versión Jam con 2d: https://github.com/Chatarra-Estudio/basic_template_26/tree/
 
 Mis recomendaciones: Modelos 3D
 
+https://free3d.com/es/modelos-3d/lowpoly-cars
+
 https://supavoxel.com/es
 
 https://www.ai3dgen.com/es/image-to-3d-model-free#free-trial
