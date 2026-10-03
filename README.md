@@ -56,6 +56,12 @@ Por archivar:
 
 ---------------------------------------------------------------------------------------------------------
 
+03-10-2026
+
+https://github.com/Chatarra-Estudio/basic_template_26/tree/41270d87e206b2271df8c5792972ecf10d52eec3 para coches
+
+---------------------------------------------------------------------------------------------------------
+
 Game´s name: https://josegarciamoreno.github.io/Chatarra-Estudio/landing2026/0228-ohgj566/matrix.html
 Game Jam: One Hour Game Jam  567th
 
