@@ -14,6 +14,8 @@ Mis recomendaciones: Modelos 3D
 
 https://free3d.com/es/modelos-3d/lowpoly-cars
 
+https://app.sloyd.ai/collections/7d18  (registro, ¿genera? colección con low poly)
+
 https://formy3d.com/es (sin registro solo maya)
 
 https://supavoxel.com/es (por creditos)
