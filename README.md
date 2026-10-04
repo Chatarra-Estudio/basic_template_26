@@ -14,6 +14,8 @@ Mis recomendaciones: Modelos 3D
 
 https://free3d.com/es/modelos-3d/lowpoly-cars
 
+https://formy3d.com/es (sin registro solo maya)
+
 https://supavoxel.com/es (por creditos)
 
 https://www.ai3dgen.com/es/image-to-3d-model-free#free-trial (sin registro solo maya)
