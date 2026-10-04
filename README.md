@@ -60,11 +60,11 @@ Por archivar:
 
 Fondos horizontal catacumbas esqueleto
 
-https://github.com/Chatarra-Estudio/basic_template_26/blob/2e8d4edfdbd3616a851d3652ebb355bcafc070a7/basic/2d-imagen/fondo.jpg
+https://github.com/Chatarra-Estudio/basic_template_26/blob/6b5d43706300f801fd897c504e6bb694894a91e7/basic/2d-imagen/fondo.jpg
 
 Fondos para 3D lava
 
-https://github.com/Chatarra-Estudio/basic_template_26/blob/6b5d43706300f801fd897c504e6bb694894a91e7/basic/2d-imagen/fondo.jpg
+https://github.com/Chatarra-Estudio/basic_template_26/blob/2e8d4edfdbd3616a851d3652ebb355bcafc070a7/basic/2d-imagen/fondo.jpg
 
 ---------------------------------------------------------------------------------------------------------
 
