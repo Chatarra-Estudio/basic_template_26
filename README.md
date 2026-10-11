@@ -58,6 +58,10 @@ https://github.com/Chatarra-Estudio/basic_template_26/tree/a2b5c4c08261ddbe75887
 
 Por archivar:
 
+Fondos horizontal techos noche 
+
+https://github.com/Chatarra-Estudio/basic_template_26/blob/64b29606bcb58200c37cf073d532f1d75752a603/basic/2d-imagen/fondo.jpg
+
 Fondos horizontal catacumbas esqueleto
 
 https://github.com/Chatarra-Estudio/basic_template_26/blob/6b5d43706300f801fd897c504e6bb694894a91e7/basic/2d-imagen/fondo.jpg
