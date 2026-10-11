@@ -34,6 +34,10 @@ Probando: https://huggingface.co/spaces/ashawkey/LGM
 
 ---------------------------------------------------------------------------------------------------------
 
+Cuidado: cambio de pantalla en el HUD
+
+https://github.com/Chatarra-Estudio/basic_template_26/commit/e10285ba352d18c7778cbe97fb7c40b2e5be92bd
+
 2D Variante:
 
 
