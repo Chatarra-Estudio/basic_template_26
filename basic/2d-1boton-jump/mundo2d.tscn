@@ -29,7 +29,7 @@ shape = SubResource( 1 )
 texture = ExtResource( 3 )
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 4 )]
-position = Vector2( 310.388, 265.038 )
+position = Vector2( 311.388, 265.038 )
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 1.5
