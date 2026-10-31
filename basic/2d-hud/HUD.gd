@@ -59,7 +59,8 @@ func _animaGO():
 func _animaWINnivel():
 #		timeRun += 1
 		get_node("win").show()
-		flag_nivel = true
+#		Aqui se activan los nivelesy metes el 3d poner flag_nivel = true , quita el comentario de la siguiente linea
+#		flag_nivel = true
 		_tiempo1s()
 
 func _animaWIN():
