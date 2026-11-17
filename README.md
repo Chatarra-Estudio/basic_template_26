@@ -57,6 +57,10 @@ Personajes planos : enanos bombero neo ...
 
 https://github.com/Chatarra-Estudio/basic_template_26/tree/a2b5c4c08261ddbe758873b27795f11bf7e79301
 
+Vehículos
+
+https://github.com/Chatarra-Estudio/basic_template_26/tree/1320252e4ccd1949324234ab58b0de231756de73
+
 
 ---------------------------------------------------------------------------------------------------------
 
