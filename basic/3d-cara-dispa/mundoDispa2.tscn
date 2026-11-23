@@ -14,11 +14,13 @@
 extents = Vector3( 0.976878, 1, 1 )
 
 [sub_resource type="PanoramaSky" id=2]
+radiance_size = 3
 panorama = ExtResource( 5 )
 
 [sub_resource type="Environment" id=3]
 background_mode = 2
 background_sky = SubResource( 2 )
+background_sky_orientation = Basis( 1, 0, 0, 0, 0.5, 0, 0, 0, 1 )
 
 [node name="mundo" type="Spatial"]
 
@@ -38,10 +40,10 @@ material = ExtResource( 2 )
 shape = SubResource( 1 )
 
 [node name="suelo2" type="Spatial" parent="."]
-editor/display_folded = true
 transform = Transform( -2.46452e-06, 1.49502e-08, 15, 20.5212, 0.939693, 0, -56.3816, 0.34202, -6.55671e-07, -0.61731, 3.44128, -117.929 )
 
 [node name="CSGBox" type="CSGBox" parent="suelo2"]
+transform = Transform( 1, 0, -1.77636e-15, 1.90735e-06, 1, 0, 0, -2.22045e-16, 1, 0, 0, 3.80934 )
 
 [node name="StaticBody" type="StaticBody" parent="suelo2/CSGBox"]
 
@@ -65,7 +67,7 @@ transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 1, -13.5992, 2.04508, -59.6203 
 texture = ExtResource( 6 )
 
 [node name="souce" parent="." instance=ExtResource( 7 )]
-transform = Transform( 7, 0, 0, 0, 7, 0, 0, 0, 7, 1, 24.156, -47.957 )
+transform = Transform( 7, 0, 0, 0, 7, 0, 0, 0, 7, 12.0408, 24.156, -47.957 )
 
 [node name="puerta" parent="." instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.95169, 6.95397 )
